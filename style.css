@@ -1,0 +1,284 @@
+body {
+    margin: 0px;
+    font-family: 'Assistant', sans-serif;
+}
+
+#navbar {
+    width: 100%;
+    height: 130px;
+    background-color: #FFFFFF;
+    margin-top: 0px;
+    display: flex;
+}
+
+#nav-vector {
+    width: 0;
+    height: 0;
+    border-top: 130px solid #FF4917;
+    border-right: 103px solid transparent;
+    border-left: 345px solid #FF4917;
+}
+
+#navbar h1 {
+    color: #FF4917;
+    margin-top: 42px;
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-right: 126px;
+}
+
+#menu {
+    display: flex;
+}
+
+#menu p {
+    color: #14212A;
+    margin-top: 53px;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.custom-button {
+    width: 215px;
+    height: 70px;
+    margin-top: 30px;
+    background-color: #162029;
+    border-radius: 35px;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+
+.custom-button div {
+    width: 80px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 120px;
+    margin-bottom: 5px;
+    background-color: #FF4917;
+    border-radius: 35px;
+}
+
+.custom-button h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    top: 50px;
+}
+
+/* banner section */
+#banner {
+    width: 100%;
+    height: 925px;
+    background-color: black;
+}
+
+#slide-1 {
+    width: 100%;
+    height: 925px;
+    background-image: url('./image/slide-1.jpg');
+    position: relative;
+}
+
+.layer {
+    background-color: rgba(5, 5, 5, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+#banner-vector-1 {
+    width: 0;
+    height: 0;
+    border-top: 425px solid #FF4917;
+    border-right: 345px solid transparent;
+    opacity: 0.7;
+}
+
+#banner-vector-2 {
+    width: 0;
+    height: 0;
+    border-top: 555px solid #FF4917;
+    border-right: 450px solid transparent;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+}
+
+#banner-vector-3 {
+    width: 0;
+    height: 0;
+    border-top: 690px solid #FF4917;
+    border-right: 555px solid transparent;
+    position: absolute;
+    top: 0;
+    opacity: 0.3;
+}
+
+#banner .text {
+    color: #FFFFFF;
+    margin-left: 370px;
+    position: absolute;
+    top: 230px;
+    line-height: 20px;
+}
+
+#and {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#banner .text p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin: 0px;
+}
+
+#banner .text h1 {
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 0px;
+    line-height: 106px;
+}
+
+#banner-button {
+    position: absolute;
+    top: 630px;
+    left: 375px;
+    margin-top: 56px;
+}
+
+#banner-button-1 {
+    background-color: #FF4917;
+    margin-right: 16px;
+}
+
+#banner-button-1 div {
+    background-color: #162029;
+}
+
+#banner-button-2 {
+    background-color: #FCFCFC;
+}
+
+#banner-button-2 div {
+    background-color: #FF4917;
+}
+
+#banner-button-2 h3 {
+    color: #162029;
+}
+
+/* About us section */
+#about-us {
+    width: 100%;
+    height: 815px;
+    display: flex;
+}
+
+#about-us img {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    width: 50%;
+}
+
+#about-text {
+    width: 480px;
+}
+
+#about-top {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+
+#about-top h3 {
+    margin-left: 20px;
+    color: #FF4917;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#hyphen {
+    width: 30px;
+    height: 3px;
+    background-color: #FF4917;
+}
+
+#about-text h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0px;
+    color: #14212A;
+}
+
+#about-text p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-points {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.about-points i {
+    font-size: 12px;
+    margin-right: 20px;
+    color: #FF4917;
+}
+
+.about-points h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #14212A;
+    margin: 0;
+}
+
+#about-button {
+    width: 190px;
+    height: 70px;
+    margin-top: 30px;
+    background-color: #162029;
+    border-radius: 35px;
+    padding: 0;
+    border: none;
+    text-align: center;
+    position: absolute;
+}
+
+#about-button div {
+    width: 80px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 95px;
+    margin-bottom: 5px;
+    background-color: #FF4917;
+    border-radius: 35px;
+}
+
+#about-button h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+
+

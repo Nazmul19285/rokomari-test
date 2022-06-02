@@ -284,27 +284,30 @@ body {
 
 
 /* customer service section */
-#customer-service{
+#customer-service {
     width: 100%;
     height: 850px;
     background-color: #F5F5F5;
-    position: absolute;
+    position: relative;
     display: flex;
 }
-#customer-service-vector{
+
+#customer-service-vector {
     margin: 0;
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: 1;
 }
-#customer-service-vector-1{
+
+#customer-service-vector-1 {
     width: 0;
     height: 0;
     border-top: 425px solid #FF4917;
     border-right: 435px solid transparent;
 }
-#customer-service-vector-2{
+
+#customer-service-vector-2 {
     width: 0;
     height: 0;
     border-top: 525px solid #FF4917;
@@ -313,18 +316,21 @@ body {
     position: absolute;
     top: 0;
 }
-#customer-service-body{
+
+#customer-service-body {
     margin-top: 120px;
     align-items: center;
     z-index: 2;
 }
-#customer-service-top{
+
+#customer-service-top {
     display: flex;
     align-items: center;
     position: absolute;
     right: 750px;
 }
-#customer-service-top h3{
+
+#customer-service-top h3 {
     margin-left: 12px;
     margin-right: 12px;
     font-size: 22px;
@@ -332,11 +338,13 @@ body {
     color: #FF4917;
     text-align: center;
 }
-#customer-service-text{
+
+#customer-service-text {
     width: 550px;
     align-items: center;
 }
-#customer-service-text #customer-service-header{
+
+#customer-service-text #customer-service-header {
     font-size: 40px;
     font-weight: 700;
     margin: 0;
@@ -348,17 +356,20 @@ body {
     margin-top: 30px;
     right: 500px;
 }
-.component{
+
+.component {
     width: 370px;
     height: 370px;
     background-color: #FFFFFF;
     margin-right: 30px;
 }
-.component img{
+
+.component img {
     margin-top: 60px;
     margin-left: 147px;
 }
-.component h3{
+
+.component h3 {
     font-size: 25px;
     font-weight: 600;
     color: #14212A;
@@ -366,21 +377,24 @@ body {
     margin-left: 115px;
     margin-top: 30px;
 }
-.component p{
+
+.component p {
     font-size: 20px;
-    font-weight:600;
+    font-weight: 600;
     color: #616161;
     margin-top: 8px;
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
 }
-.component i{
+
+.component i {
     margin-left: 170px;
     font-size: 20px;
     font-weight: 600;
 }
-.hover-style{
+
+.hover-style {
     width: 340px;
     height: 9px;
     background-color: #FF4917;
@@ -389,12 +403,126 @@ body {
     margin-left: 15px;
     display: none;
 }
-.component:hover + .hover-style {
-        display: block;
+
+.component:hover+.hover-style {
+    display: block;
 }
-.components{
+
+.components {
     display: flex;
     position: absolute;
     right: 250px;
     margin-top: 250px;
+}
+
+/* video section */
+.video {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+#background-video {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.video-text {
+    width: 670px;
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+#video-top {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 16px;
+}
+
+#video-top div {
+    margin: 0;
+    width: 30px;
+    height: 3px;
+    background-color: #FFFFFF;
+    margin-right: 21px;
+}
+
+#video-top h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.video-body h1 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.video-body p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.video-body button {
+    background-color: #FF4917;
+    width: 245px;
+    height: 70px;
+    border-radius: 35px;
+    display: flex;
+    position: relative;
+    border: none;
+    margin-top: 32px;
+}
+
+.video-body button div {
+    background-color: #162029;
+    width: 80px;
+    height: 60px;
+    border-radius: 35px;
+    position: absolute;
+    right: 12px;
+    top: 5px;
+    border: none;
+}
+
+.video-body button h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: absolute;
+    left: 40px;
+}
+.play-button-border{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 230px;
+    right: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+}
+
+.play-button {
+    width: 120px;
+    height: 120px;
+    background-color: #FFFFFF;
+    color: #FF4917;
+    font-size: 30px;
+    border-radius: 50%;
+    text-align: center;
+
 }

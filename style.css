@@ -568,6 +568,7 @@ body {
     margin-top: 65px;
     margin-left: 375px;
     margin-right: 375px;
+    margin-bottom: 430px;
     position: relative;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -634,4 +635,128 @@ body {
 .feature-text p {
     font-size: 20px;
     margin: 0;
+}
+
+/* what-we-do section */
+.what-we-do{
+    width: 100%;
+    height: 850px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+.what-we-do-poster-2{
+    width: 1270px;
+    height: 720px;
+    background-color: #E7E7E7;
+    position: absolute;
+    top: -270px;
+    left: 325px;
+    opacity: 0.6;
+}
+.what-we-do-poster-3{
+    width: 1220px;
+    height: 700px;
+    background-color: #E2E2E2;
+    position: absolute;
+    top: -300px;
+    left: 350px;
+    opacity: 0.6;
+}
+.what-we-do-poster-1{
+    width: 1170px;
+    height: 750px;
+    background-color: #14212A;
+    position: absolute;
+    top: -330px;
+    left: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.what-we-do-text{
+    width: 500px;
+    margin-left: 100px;
+}
+.what-we-do-top{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.what-we-do-top h4{
+    margin: 0;
+    color: #FF4917;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.what-we-do-header{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+    line-height: 20px;
+}
+.what-we-do-text p{
+    font-size: 18px;
+    color: #C2D9EB;
+    margin-top: 10px;
+}
+.what-we-do-text i{
+    font-size: 10px;
+    color: #C2D9EB;
+    margin-right: 15px;
+}
+.what-we-do-text button{
+    width: 200px;
+    height: 70px;
+    border: none;
+    background-color: #FF4917;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+}
+.what-we-do-text button div{
+    width: 80px;
+    height: 60px;
+    border: none;
+    background-color: #162029;
+    border-radius: 35px;
+    position: absolute;
+    top: 5px;
+    right: 12px;
+}
+.what-we-do-text button h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: absolute;
+    left: 40px;
+}
+.what-we-do-footer{
+    position: absolute;
+    bottom: 100px;
+    left: 420px;
+    display: flex;
+    text-align: center;
+}
+.what-we-do-single-footer img{
+    color: #FF4917;
+    margin: 0;
+}
+.what-we-do-single-footer h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #14212A;
+    margin: 0;
+}
+.what-we-do-single-footer p{
+    font-size: 18px;
+    color: #14212A;
+    margin: 0;
+}
+.what-we-do-single-footer{
+    margin-right: 170px;
 }

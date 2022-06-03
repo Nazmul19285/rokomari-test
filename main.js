@@ -3,10 +3,10 @@ const backgroundVideo = video.querySelector('#background-video')
 const playButton = video.querySelector('.play-button');
 
 playButton.addEventListener('click', (e) => {
-    if(backgroundVideo.paused){
+    if (backgroundVideo.paused) {
         backgroundVideo.play();
     }
-    else{
+    else {
         backgroundVideo.pause();
-    }   
+    }
 })
